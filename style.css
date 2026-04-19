@@ -1,0 +1,244 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.logo-text {
+  color: #c9a24d; 
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.navbar {
+  padding: 15px 0;
+}
+
+.nav-link {
+  color: #000;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+border-bottom: 1px solid #c9a24d;
+color: #c9a24d;
+transition: 0.5s;
+}
+
+#latestWinnercon
+{
+  background-color: #f9f5ed;
+  height: 450px;
+  padding-top: 30px;
+
+}
+#logo-text
+{
+  color: #c9a24d;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 1.2;
+  
+
+}
+.para
+{
+  text-align: justify;
+  font-style: italic;
+  color: black;
+
+}
+.read-more
+{
+  border: none;
+  background-color: #c9a24d;
+  color: #ffff;
+   width: 150px;
+   height: 30px;
+   border-radius: 4px;
+   margin-left: 44%;
+
+}
+.read-more:hover{
+   border: 2px solid #c9a24d;
+   color: #c9a24d;
+   width: 150px;
+   height: 30px;
+   background-color: #ffff;
+    border-radius: 4px;
+    transition: 1s;
+
+}
+
+ 
+
+.about-section {
+    padding: 20px 0;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.about-section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+}
+
+.image-box {
+    width: 100%;
+    height: 260px;
+    background-color: #e9ecef;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 14px;
+}
+
+.field-card {
+  border: 2px solid #c9a24d;
+    color: #c9a24d;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.field-card:hover {
+    transform: translateY(-6px);
+}
+
+
+.winner-name{
+  color: #c9a24d;
+}
+
+.winner-desc
+{
+  color: #000;
+  font-style: italic;
+  text-align: justify;
+
+}
+
+.contact-hero {
+  background: #c9a24d;
+  color: #fff;
+  padding: 80px 0;
+}
+
+.contact-hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+#contact-btn
+{
+  background-color: #c9a24d;
+  color: #ffff;
+  
+}
+#contact-btn:hover{
+  background-color: #ffff;
+  color: #c9a24d;
+  border: solid 2px #c9a24d;
+  transition: 0.4s;
+}
+.contact-section h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contact-form .form-control {
+  border-radius: 6px;
+}
+
+.map-section iframe {
+  width: 100%;
+  height: 350px;
+  border: 0;
+}
+
+
+.nobel-footer {
+  background-color: #f4f2f0;
+  color: #000;
+}
+
+.footer-title {
+  color: #000;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.footer-heading {
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.footer-text {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #000;
+  text-align: justify;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list li {
+  margin-bottom: 8px;
+}
+
+.footer-list a {
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 70px;
+}
+
+.footer-list a:hover {
+  text-decoration: underline;
+  color: #c9a24d;
+  transition: 0.5s;
+}
+
+.nobel-footer i,
+.nobel-footer span {
+  color: #000;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #000;
+}
+#footer-title{
+   font-size: 20px;
+  letter-spacing: 1px;
+  color: #c9a24d;
+  border-bottom: #c9a24d solid 2px;
+  width: fit-content;
+}

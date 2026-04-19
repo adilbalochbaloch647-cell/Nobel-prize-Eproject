@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nobel Prize Navbar</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="logo-area text-center py-4">
+    <h1 class="logo-text">THE<br>NOBEL<br>PRIZE</h1>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light border-top">
+    <div class="container">
+      <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#nobelNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="nobelNav">
+        <ul class="navbar-nav gap-4">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Nobel Prize</a></li>
+          <li class="nav-item"><a class="nav-link" href="nomination.html">Nominations</a></li>
+          <li class="nav-item"><a class="nav-link" href="winner.html">Winners</a></li>
+          <li class="nav-item"><a class="nav-link" href="newEvent.html">News & Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section style="margin: 1%; padding: 1%;" class="nomination-info my-5">
+    <div class="row align-items-center">
+
+        <div class="col-md-6">
+            <h2 style="color: #c9a24d;" class="section-title">Nobel Prize Nominations</h2>
+
+            <p style="font-style: italic;" class="para">
+                The Nobel Prize nomination process is designed to recognize individuals and organizations whose work has made an outstanding contribution to humanity. Each year, qualified nominators from around the world submit nominations across different categories, ensuring that excellence in science, literature, and peace is fairly represented.
+            </p>
+
+            <p style="font-style: italic;" class="para">
+                Nominations are carefully reviewed by expert committees appointed by the Nobel institutions. These committees evaluate the impact, originality, and long-term value of each nominee’s work. The process remains confidential to maintain integrity, credibility, and independence in selecting Nobel laureates.
+            </p>
+
+            <p style="font-style: italic;" class="para">
+                Through this rigorous nomination system, the Nobel Prize continues to highlight groundbreaking achievements and inspiring efforts that advance knowledge, creativity, and global peace. The nomination process plays a vital role in preserving Alfred Nobel’s vision of rewarding work that benefits mankind.
+            </p>
+        </div>
+
+        <div class="col-md-6">
+            <div class="image-box">
+               <img style="border-radius: 10px;" src="images/nomination.png" height="430px" width="100%" alt="">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<div class="container my-5">
+
+    <h2 style="color: #c9a24d; text-align: center; font-weight: 700;" class="logo-text">Nobel Prize Nominations</h2>
+<br><br>
+    <section class="filter-section mb-5">
+        <div class="row g-3 justify-content-center">
+
+            <div class="col-md-4">
+                <label class="form-label">Select Year</label>
+                <select class="form-select" id="yearSelect">
+                    <option selected>2025</option>
+                    <option>2024</option>
+                    <option>2023</option>
+                    <option>2022</option>
+                </select>
+            </div>
+
+            <div class="col-md-4">
+                <label class="form-label">Select Category</label>
+                <select class="form-select" id="categorySelect">
+                    <option selected>All Categories</option>
+                    <option>Physics</option>
+                    <option>Chemistry</option>
+                    <option>Medicine</option>
+                    <option>Literature</option>
+                    <option>Peace</option>
+                    <option>Economic Sciences</option>
+                </select>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="table-section">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover align-middle">
+                <thead class="table-warning">
+                    <tr>
+                        <th>#</th>
+                        <th>Nominee Name</th>
+                        <th>Category</th>
+                        <th>Country</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>John Anderson</td>
+                        <td>Physics</td>
+                        <td>USA</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Maria Lopez</td>
+                        <td>Chemistry</td>
+                        <td>Spain</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Akira Tanaka</td>
+                        <td>Medicine</td>
+                        <td>Japan</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Emily Brown</td>
+                        <td>Literature</td>
+                        <td>UK</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ahmed Khan</td>
+                        <td>Peace</td>
+                        <td>Pakistan</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Lucas Meyer</td>
+                        <td>Economic Sciences</td>
+                        <td>Germany</td>
+                        <td>2025</td>
+                    </tr>
+
+    <tr>
+        <td>7</td>
+        <td>Sophia Martin</td>
+        <td>Physics</td>
+        <td>France</td>
+        <td>2024</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Carlos Vega</td>
+        <td>Chemistry</td>
+        <td>Mexico</td>
+        <td>2024</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Hiroshi Sato</td>
+        <td>Medicine</td>
+        <td>Japan</td>
+        <td>2024</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Anna Müller</td>
+        <td>Literature</td>
+        <td>Germany</td>
+        <td>2024</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Fatima Noor</td>
+        <td>Peace</td>
+        <td>UAE</td>
+        <td>2024</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>David Clark</td>
+        <td>Economic Sciences</td>
+        <td>Canada</td>
+        <td>2024</td>
+    </tr>
+
+    <tr>
+        <td>13</td>
+        <td>Michael Lee</td>
+        <td>Physics</td>
+        <td>USA</td>
+        <td>2023</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>Isabella Rossi</td>
+        <td>Chemistry</td>
+        <td>Italy</td>
+        <td>2023</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>Chen Wei</td>
+        <td>Medicine</td>
+        <td>China</td>
+        <td>2023</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>Oliver Smith</td>
+        <td>Literature</td>
+        <td>UK</td>
+        <td>2023</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>Ayesha Rahman</td>
+        <td>Peace</td>
+        <td>Bangladesh</td>
+        <td>2023</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>Stefan Novak</td>
+        <td>Economic Sciences</td>
+        <td>Austria</td>
+        <td>2023</td>
+    </tr>
+
+    <tr>
+        <td>19</td>
+        <td>Robert Wilson</td>
+        <td>Physics</td>
+        <td>USA</td>
+        <td>2022</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>Elena Petrova</td>
+        <td>Chemistry</td>
+        <td>Russia</td>
+        <td>2022</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>Park Min-Joon</td>
+        <td>Medicine</td>
+        <td>South Korea</td>
+        <td>2022</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>Liam O’Connor</td>
+        <td>Literature</td>
+        <td>Ireland</td>
+        <td>2022</td>
+    </tr>
+    <tr>
+        <td>23</td>
+        <td>Nelson Okafor</td>
+        <td>Peace</td>
+        <td>Nigeria</td>
+        <td>2022</td>
+    </tr>
+    <tr>
+        <td>24</td>
+        <td>Eva Svensson</td>
+        <td>Economic Sciences</td>
+        <td>Sweden</td>
+        <td>2022</td>
+    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+</div>
+
+
+
+<br><br><br>
+<footer class="nobel-footer">
+  <div class="container py-5">
+    <div class="row">
+
+      <div class="col-md-4 mb-4">
+         <h4 id="footer-title">About the Nobel Prize <br>organisation</h4>
+         <br>
+        <h4 class="footer-title">The Nobel Foundation</h4>
+        <p class="footer-text">
+         Tasked with a mission to manage Alfred Nobel's fortune and has ultimate responsibility for fulfilling the intentions of Nobel's will.
+        </p>
+        <br>
+        <h4 class="footer-title">The prize-awarding institutions</h4>
+        <p class="footer-text">
+          For more than a century, these academic institutions have worked independently to select Nobel Prize laureates.
+        </p>
+        
+      </div>
+      
+
+      <div  class="col-md-4 mb-4">
+        <h5 style="margin-left: 70px;" id="footer-title">Quick Links</h5>
+        <ul class="footer-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Nobel Prize</a></li>
+          <li><a href="nomination.html">Nominations</a></li>
+          <li><a href="winner.html">Winners</a></li>
+          <li><a href="newEvent.html">News&Events</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h5 id="footer-title">Contact Us</h5>
+        <p class="footer-text mb-1">📧 info@nobelproject.com</p>
+        <p class="footer-text mb-1">📞 +92 300 0000000</p>
+        <p class="footer-text">📍 Stockholm, Sweden</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom text-center pt-4">
+      © 2026 Nobel Prize Website | Academic Project
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
